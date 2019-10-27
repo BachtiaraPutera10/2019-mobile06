@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements MenuFragment.OnFr
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_main);
-            aboutFragment = AboutFragment.newInstance("Dini Triana Dewi");
+            aboutFragment = AboutFragment.newInstance("Bachtiar Putera A");
             menuFragment = new MenuFragment();
             brocaIndexFragment = new BrocaIndexFragment();
             resultFragment = new ResultFragment();
