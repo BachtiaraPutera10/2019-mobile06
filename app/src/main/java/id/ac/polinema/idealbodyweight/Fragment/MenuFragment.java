@@ -39,7 +39,7 @@ public class MenuFragment extends Fragment {
         brocaButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (mListener != null){
+                if (mListener != null) {
                     mListener.onBrocaIndexButtonClicked();
                 }
             }
@@ -87,7 +87,5 @@ public class MenuFragment extends Fragment {
         // TODO: Update argument type and name
         void onBrocaIndexButtonClicked();
         void onBodyMassIndexButtonClicked();
-
-        void onCalculateBrocaIndexClicked(float index);
     }
 }
